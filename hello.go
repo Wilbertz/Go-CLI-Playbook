@@ -1,7 +1,7 @@
 package main
 
-import "fmt"
+import "Go-CLI-Playbook/hello"
 
 func main() {
-	fmt.Println("Hello Go")
+	hello.SayHello()
 }
