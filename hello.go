@@ -1,7 +1,10 @@
 package main
 
-import "Go-CLI-Playbook/hello"
+import "fmt"
+import "C"
 
-func main() {
-	hello.SayHello()
+func main() {}
+
+func Hello() {
+	fmt.Println("Hello")
 }
