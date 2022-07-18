@@ -7,3 +7,9 @@ func TestAdder(t *testing.T) {
 		t.Fail()
 	}
 }
+
+func BenchmarkAdder(b *testing.B) {
+	for i := 0; i < b.N; i++ {
+		adder(5, 7)
+	}
+}
